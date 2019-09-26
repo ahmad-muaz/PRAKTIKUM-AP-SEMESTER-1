@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int jarak, waktu ,kecepatan;
+    jarak = 750;
+    waktu = 20;
+    kecepatan = jarak / waktu;
+    
+    cout << "Kecepatan Amir adalah "<<kecepatan;
+       
+}
