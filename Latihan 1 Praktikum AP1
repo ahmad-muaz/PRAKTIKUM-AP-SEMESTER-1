@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n_tugas, n_uts, n_uas, n_rata;
+    n_tugas = 80;
+    n_uts = 89;
+    n_uas = 75;
+    
+    cout <<"Data Nilai Rata-Rata dan Nilai Akhir\n";
+    n_rata = (n_tugas + n_uts + n_uas) / 3;
+    
+    cout <<"Nilai Rata-Ratanya Berjumlah "<<n_rata;
+    
+}
