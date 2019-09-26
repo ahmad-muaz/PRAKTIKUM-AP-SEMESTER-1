@@ -1,2 +1,2 @@
-# muaz
+Praktikum AP1
 Informatika19
