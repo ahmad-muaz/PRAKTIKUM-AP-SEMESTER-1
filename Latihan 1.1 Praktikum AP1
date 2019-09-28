@@ -3,14 +3,19 @@
 using namespace std;
 
 int main() {
-    int n_tugas, n_uts, n_uas, n_rata;
+ int n_tugas, n_uts, n_uas, n_rata;
     n_tugas = 80;
     n_uts = 89;
     n_uas = 75;
     
-    cout <<"Data Nilai Rata-Rata dan Nilai Akhir\n";
+    cout <<"Data Nilai Mahasiswa\n";
+    cout << "\n";
+    
+    cout << "Nilai tugas: " << n_tugas << "\n";
+    cout << "Nilai uts: " << n_uts << "\n";
+    cout << "Nilai ujian akhir: " << n_uas << "\n";
     n_rata = (n_tugas + n_uts + n_uas) / 3;
-    
-    cout <<"Nilai Rata-Ratanya Berjumlah "<<n_rata;
-    
+    cout << "\n";
+    cout << "Nilai rata-rata: " << n_rata;
+    return 0;
 }
