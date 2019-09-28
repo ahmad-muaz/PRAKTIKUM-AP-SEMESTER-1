@@ -4,10 +4,18 @@ using namespace std;
 
 int main() {
     int jarak, waktu ,kecepatan;
-    jarak = 750;
-    waktu = 20;
-    kecepatan = jarak / waktu;
+    jarak = 750; 
+    waktu = 20; 
     
-    cout << "Kecepatan Amir adalah "<<kecepatan;
-       
+    cout << "Jarak yang ditempuh Amir dari Jakarta Ke Surabaya adalah " << jarak << " km\n";
+    cout << "Waktu yang ditempuh " << waktu << " jam\n";
+    cout << "Berapa kecepatan yang Amir harus tempuh ?\n";
+    
+    kecepatan = jarak/waktu;
+    
+    cout << "............\n";
+    cout << "Kecepatan = Jarak/Waktu" << "\n";
+    cout << "Kecepatan kendaraan Amir : " << kecepatan <<" km/jam";
+    return 0;
+    
 }
