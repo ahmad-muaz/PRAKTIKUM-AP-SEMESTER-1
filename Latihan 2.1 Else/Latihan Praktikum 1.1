@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n_tugas, n_uts, n_uas, n_rata;
+    cout << "Masukkan nilai tugas : ";
+    cin >> n_tugas;
+    cout << "Masukkan nilai uts : ";
+    cin >> n_uts;
+    cout << "Masukkan nilai uas : ";
+    cin >> n_uas;
+    
+    n_rata = ((0,3* n_tugas) + (0,3* n_uts) + (0,4* n_uas))/10;
+    
+    if (n_rata >=85)
+    {
+        cout << "Grade = A"<<endl;
+    }
+    else if (n_rata <85 and n_rata >=75)
+    {
+        cout << "Grade = B"<<endl;
+    }
+    else if (n_rata <75 and n_rata >=60)
+    {
+        cout << "Grade = C"<<endl;
+    }
+    else if (n_rata <60 and n_rata >=45)
+    {
+        cout << "Grade = D"<<endl;
+    }
+    else if (n_rata <45)
+    {
+        cout << "Grade = E"<<endl;
+    }
+    else
+    {
+        cout << "tidak mempunyai nilai" <<endl;
+    }
+    return 0;
+}
