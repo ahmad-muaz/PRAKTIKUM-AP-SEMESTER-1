@@ -12,11 +12,11 @@ int main()
     cout << "Umur : " ;
     cin >> u;
     
-    if (u>=18)
+    if (u>=17)
     {
         cout << "Selamat " <<nama<< " Diterima sebagai mahasiswa baru Universitas Paramadina ";
     }
-    else if (u<18)
+    else if (u<17)
     {
         cout << "Maaf " <<nama<< " Tidak diterima sebagai mahasiswa baru Universitas Paramadina ";
     }
