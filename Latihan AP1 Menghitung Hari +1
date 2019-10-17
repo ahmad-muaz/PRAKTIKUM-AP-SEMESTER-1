@@ -65,7 +65,7 @@ int main() {
     }
     else {
         //kabisat
-        cout << "--------(Detected)--------" << endl;
+        cout << "--------(Kabisat Detected)--------" << endl;
         if((bulan==1)||(bulan==3)||(bulan==5)||(bulan==7)||(bulan==8)||(bulan==10)||(bulan==12)){
             if(tanggal>=32){
                 bulan = bulan+1;
