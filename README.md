@@ -1,2 +1,1 @@
-Praktikum AP1
-Informatika19
+ALGORITMA DAN PEMROGRAMAN 1
