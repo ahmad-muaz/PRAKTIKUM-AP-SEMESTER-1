@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+   cout<<"Masukkan a : ";
+   cin>>a;
+   cout<<"Masukkan b : ";
+   cin>>b;
+   cout<<"Masukkan c : ";
+   cin>>c;
+   if(b < a){
+      d = b;
+      b = a;
+      a = d;
+   }
+   if(c < a){
+      d = c;
+      c = a;
+      a = d;
+   }
+   if(c < b){
+      d = b;
+      b = c;
+      c = d;
+   }
+   cout<<"Bilangan yang telah diurutkan : "<<a<<" "<<b<<" "<<c << endl;
+}
