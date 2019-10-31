@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int saldo, a,b,c;
+	saldo = 100000;
+menu:
+	cout << "-----Selamat datang-----" << endl;
+	cout << "-----Di Bank Santui----" << endl;
+	cout << "Saldo anda tersisa : " << saldo << endl;
+	cout << "----------------------" << endl;
+	cout << "Pilihan : " << endl;
+	cout << "0. Setor Tunai " << endl;
+	cout << "1. Tarik Saldo " << endl;
+	cin >> a;
+	if (a == 1) {
+		cout << "Nominal yang ingin anda tarik :";
+		cin >> c;
+		if (saldo - c >= 10000) {
+			saldo = saldo - c;
+			cout << "Success!";
+			cin >> b;
+			goto menu;
+		}
+		else {
+			cout << "Maaf saldo yang anda punya kurang!!!";
+			cin >> b;
+			goto menu;
+		}
+	}
+	else if (a == 0) {
+		cout << "Masukkan nominal uang yang anda ingin setor : ";
+		cin >> c;
+		saldo = saldo + c;
+		cout << endl;
+		cout << "Setoran Berhasil!!!";
+		cin >> b;
+		goto menu;
+
+	}
+
+}
