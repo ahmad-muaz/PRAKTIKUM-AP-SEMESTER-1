@@ -1,0 +1,28 @@
+#include<iostream>
+//#include<conio.h>
+
+using namespace std;
+
+void bil (int a, int b);
+
+void bil (int a, int b) 
+{
+    int c;
+    c=a;
+    a=b;
+    b=c;
+    cout << "Sesudah pertukaran, angka pertama = " << a << " angka kedua = " << b << "\n";
+}
+
+int main() 
+{
+    int a,b;
+    cout << "Masukkan angka pertama : ";
+    cin >> a;
+    cout << "Masukkan angka kedua : ";
+    cin >> b;
+    cout << "Sebelum pertukaran, angka pertama = " << a << " angka kedua = " << b << "\n";
+    bil (a,b);
+    return (0);
+
+}
